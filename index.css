@@ -1,0 +1,588 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar_section*/
+ 
+.navbar{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+  
+    
+    .left_sec{
+       margin-left: 50px;
+    }
+
+    .med_sec{
+        margin: 0 auto;
+        display: flex;
+        gap: 21px;
+        font-size: 24px;
+        font-weight: 550;
+        
+
+        & a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .right_sec{
+      margin-right: 50px;
+      display: flex;
+      gap: 10px;
+      margin-bottom: 30px;
+
+    .log_btn{
+        background-color: #F1F1F1;
+        padding: 11px 28px;
+        border-radius: 30px;
+    }
+    .get_btn{
+        display: flex;
+        gap: ;
+        background-color: black;
+        color: white;
+        padding: 11px 28px;
+        border-radius: 30px;
+    }
+    .frame{
+     margin-top: 6px;
+    }
+   
+    }
+}
+
+/*find_section*/
+
+.find_sec{
+    background-image: url(Rectangle\ 1.png);
+    
+    .find_del{
+        
+        display: flex;
+        flex-direction: column;
+        line-height: 54.46px;
+        
+        height: 344px;
+       
+        border-radius: 4px;
+        & h1{
+            margin: 0 auto;
+            font-size: 55px;
+            font-weight: 550;
+            margin-top: 20px;
+            
+        }
+        .form{
+            margin: 0 auto;
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            .select{
+                background-color: #ECECEC;
+                border-radius: 3px;
+                padding: 5px 20px;
+                font-size: 20px;
+            }
+        }
+        .find_offer{
+            display: flex;
+            gap: 10px;
+            margin: 0 auto;
+            margin-top: 20px;
+
+            .how{
+                font-size: 20px;
+                padding:  0px 210px;
+                background-color: #ECECEC;
+                border-radius: 8px;
+            }
+
+            .offer{
+                background-color: #00EBC7;
+                padding: 1px 28px;
+                border-radius: 30px;
+                font-size: 20px;
+            }
+
+        }
+    }
+
+}
+/*buy\sel*/
+.buy{
+    background-color: yellow;
+    text-align: center;
+    height: 370px;
+
+    .buy_del{
+        font-size: 35px;
+        font-weight: 550;
+        padding-top: 50px;
+    }
+
+    .buy_img{
+        width: 100%;
+        object-fit: cover;
+        padding-top: 50px;
+    }
+}
+
+/*feature section*/
+
+.feature_sec{
+    width: 100%;
+    height: 680px;
+
+    .we{
+        font-size: 35px;
+        padding-top: 80px;
+        padding-left: 65px;
+    }
+
+    .fe_del{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 200px;
+        gap: 35px;
+
+        & div{
+            width: 300px;
+            margin: 0 auto;
+           
+            & h1{
+                margin-top: 24px;
+                text-align: center;
+                font-size: 30px;
+
+            }
+            & p{
+                font-size: 18px;
+                text-align: center;
+                color: #535353;
+                margin-top: 16px;
+
+
+            }
+            & a{
+                 
+                padding-top: 24px;
+                margin-top: 24px;
+                font-weight: 550;
+                color: black;
+
+            }
+        }
+    }
+
+    .feature_btn{
+        text-align: center;
+        font-size: 24px;
+        border: 1px solid black;
+        border-radius: 25px;
+        padding: 10px 25px;
+    }
+} 
+
+/*outside_section*/
+
+.outside{
+    display: flex;
+    gap:52px;
+    padding: 25px;
+
+    .out_left{
+        & h1{
+            font-size: 34px;
+            margin-bottom: 15px;
+            margin: 0 auto;
+            left: 220px;
+        }
+        width: 50%;
+        margin-top: 50px;
+        
+        
+
+        & div{
+            display: flex;
+            align-items: center;
+            
+            text-align: center;
+            margin: 0 auto;
+            width: 626px;
+            padding: 13px 20px;
+            border: 1px solid black;
+            border-radius: 15px;
+            gap: 34px;
+            margin-bottom: 15px;
+            
+        }
+        buy_btn{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    .out_right{
+        width: 50%;
+        margin-top: 50px;
+        & h1{
+            font-size: 34px;
+            margin-bottom: 15px;
+            margin: 0 auto;
+            
+            left: 220px;
+        }
+
+        & div{
+            display: flex;
+            align-items: center;
+             
+            text-align: center;
+            margin: 0 auto;
+            width: 610px;
+            padding: 13px 20px;
+            border: 1px solid black;
+            border-radius: 15px;
+            gap: 34px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .sell_btn{
+        
+        text-align: center;
+        margin: 0 auto;
+        height: 20px;
+        background-color: black;
+        color: white;
+        width: 237px;
+
+    }
+    }
+
+     /*sing_section*/
+
+    .sing{
+        
+        height: 600px;
+        background-color: #CFBAFF;
+
+        .sing_main{
+            & h1{
+                font-size: 75px;
+                text-align: center;
+                line-height: 90.77px;
+                font-weight: 500;
+                padding-top: 161px;
+            }
+            .get_start{
+                padding: 15px 45px;
+                background-color: black;
+                border-radius: 30px;
+                margin-top: 50px;
+                color: white;
+                text-align: center;
+
+                & h5{
+                    font-size: 32px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+     /*spacio section*/
+
+    .spacio{
+        width: 100%;
+        height: 505px;
+        background-color: black;
+        color: white;
+
+        .spacio_main{
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            height: 312px;
+            width: 984px;
+            margin: 0 auto;
+            padding-top: 110px;
+
+            & h1{
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 33.89px;
+                margin-bottom: 33px;
+            }
+
+            & h3{
+                line-height: 25px;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+           
+    .spacio_hr{
+        color: white;
+    }
+
+    /* footer_sectin*/
+
+    .footer{
+        background-color: black;
+        color: white;
+        & p{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 15.73px;
+            padding: 25px 5px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+  /*responsib for mobile*/
+
+  @media (max-device-width: 767px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        .left_sec{
+           margin-left: 20px;
+        }
+        .left_sec{
+            margin: 0 auto;
+        }
+        .med_sec{
+            gap: 15px;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .right_sec{
+          margin-right: 50px;
+          gap: 15px;
+          margin-bottom: 15px;
+          margin: 0 auto;
+          margin-bottom: 15px;
+    
+        .log_btn{
+            padding:  8px;
+            border-radius: 20px;
+        }
+        .get_btn{
+            padding: px 14px;
+            border-radius: 30px;
+        }
+    }
+    }
+
+    .find_sec{
+        background-image: url(Rectangle\ 1.png);
+        
+        .find_del{
+            line-height: 25px;
+            height: 244px;
+            & h1{
+                font-size: 30px;
+                margin-top: 15px;
+            }
+            .form{
+                margin-top: 15px;
+                gap: 5px;
+                .select{
+                    padding: 5px 10px;
+                    font-size: 14px;
+                }
+            }
+            .find_offer{
+                gap: 5px;
+                margin-top: 15px;
+                .how{
+                    font-size: 14px;
+                    padding:  0px 70px;
+                    border-radius: 4px;
+                }
+                .offer{
+                    padding: 1px 10px;
+                    border-radius: 10px;
+                    font-size: 14px;
+                }
+    
+            }
+        }
+    
+    }
+
+    .buy{
+        height: 350px;
+        .buy_del{
+            font-size: 20px;
+
+            padding-top: 15px;
+        }
+    
+        .buy_img{
+            position: relative;
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+            padding-top: 15px;
+        }
+    }
+    
+    .feature_sec{
+        height: 900px;
+        .we{
+            font-size: 25px;
+            padding-top: 25px;
+            padding-left: 35px;
+        }
+        .fe_del{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+            margin-top: 50px;
+            gap: 15px;
+            & div{
+                width: 250px;
+                & h1{
+                    margin-top: 15px;
+
+                    font-size: 25px;
+                }
+                & p{
+                    font-size: 18px;
+                    margin-top: 10px;
+                }
+                & a{
+                    
+                    margin-top: 16px;
+                }
+            }
+        }
+    
+        .feature_btn{
+
+            font-size: 18px;
+
+            border-radius: 15px;
+            padding: 8px;
+        }
+    } 
+
+    .outside{
+        width: 50%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        padding: 35px;
+        .out_left{
+            margin-top: 15px;
+            & h1{
+                font-size: 24px;
+                margin-bottom: 15px;
+                left: 120px;
+            }
+            & div{
+                display: flex;
+                flex-direction: row;
+                width: 326px;
+                padding: 7px 10px;
+                border-radius: 7px;
+                gap: 14px;
+                margin-bottom: 7px;
+            }
+        }
+        .out_right{
+            margin-top: 15px;
+            & h1{
+                font-size: 24px;
+                margin-bottom: 15px;
+                left: 120px;
+            }
+    
+            & div{        
+                width: 326px;
+                padding: 7px 10px;
+                border-radius: 7px;
+                gap: 14px;
+                margin-bottom: 7px;
+            }
+        }
+    
+
+        .sell_btn{
+            
+            height: 15px;
+             & h1{
+                font-size: 18px;
+                padding: 20px;
+             }
+        }
+        }
+
+        .sing{
+            height: 230px;
+            padding: 15px;
+            .sing_main{
+                & h1{
+                    font-size: 35px;
+                    line-height: 45px;
+                    padding-top: 15px;
+                }
+                .get_start{
+                    padding: 8px;
+                    border-radius: 16px;
+                    margin-top: 25px;
+                    & h5{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+
+        .spacio{
+            width: 100%;
+            height: 700px;
+            .spacio_main{
+                margin-left: 130px;
+                display: flex;
+                flex-direction: column;
+                padding-top: 30px;
+
+                & div{
+                 
+                    margin-bottom: 25px;
+                    padding: 5px;
+
+                }
+
+                & h1{
+                    font-size: 24px;
+                    margin-bottom: 5px;
+                }
+                & h3{
+                    line-height: 20px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    
+                }
+            }
+        }
+
+        .footer{
+            & p{
+                font-size: 13px;
+                padding: 10px;
+
+            }
+        }
+  }
